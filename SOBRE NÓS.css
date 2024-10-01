@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #94c8fd;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamanho padrão da fonte aumentado */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff; /* Alterei para branco para contraste */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra mais sutil */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    color: #333; /* Mudando a cor para melhor contraste */
+    font-size: 2.5em; /* Aumenta o tamanho do título */
+}
+
+.about {
+    margin-bottom: 60px;
+}
+
+h2 {
+    color: #333; /* Mudando a cor para melhor contraste */
+    margin-top: 20px;
+    font-size: 1.8em; /* Aumenta o tamanho dos subtítulos */
+}
+
+p {
+    line-height: 1.6; /* Ajuste o espaçamento entre linhas */
+    color: #333; /* Mudando a cor para melhor contraste */
+    font-size: 1.1em; /* Aumenta o tamanho do texto do parágrafo */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1em; /* Aumenta o tamanho da fonte da lista */
+}
+
+footer {
+    text-align: center;
+    font-size: 16px; /* Aumenta o tamanho da fonte do footer */
+    color: #333; /* Mudando a cor para melhor contraste */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #94c8fd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a.home-link {
+    color: #333; /* Mudando a cor para melhor contraste */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a.home-link:hover {
+    text-decoration: underline;
+}
+
